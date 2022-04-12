@@ -58,7 +58,7 @@ Successfully built 7d692d619894
 Successfully tagged datawire/hello-world:latest
 ```
 
-### Run it in Docker
+### Run it in Docker1
 
 Build the image first, then launch it using `docker run`.
 
