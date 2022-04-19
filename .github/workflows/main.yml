@@ -6,10 +6,10 @@ on:
       - main
 jobs:
   DOS:
-    name: running terraform plan
+    name: running docker plan
     runs-on: ubuntu-latest
     env:
-      WORKING_DIRECTORY: terraform
+      WORKING_DIRECTORY: docker
 
     steps:
      - name: 'Checkout'
