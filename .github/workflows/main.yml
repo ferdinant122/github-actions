@@ -20,7 +20,7 @@ jobs:
 
 
      - name: "Build"
-       run: docker build -t ferdinant122/hello-world:1.0.1 -t ferdinant122/hello-world:1.1.1 .
+       run: docker build -t ferdinant122/hello-world:1.1.2  .
 
      - name: "Push"
-       run: docker push ferdinant122/hello-world:1.1.1
+       run: docker push ferdinant122/hello-world:1.1.2
