@@ -16,7 +16,7 @@ jobs:
        uses: actions/checkout@main
 
      - name: "Build"
-       run: docker build -t ferdinant122/github-actions:latest  .
+       run: docker build -t ghcr.io/ferdinant122/github-actions:latest  .
 
      - name: "Push"
        run: docker push ghcr.io/ferdinant122/github-actions:latest
