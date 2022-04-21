@@ -15,9 +15,8 @@ jobs:
      - name: 'Checkout'
        uses: actions/checkout@main
 
-
      - name: "Build"
        run: docker build -t ferdinant122/hello-world:latest  .
 
      - name: "Push"
-       run: docker push https://ghcr.io/ferdinant122/hello-world:latest
+       run: docker push ghcr.io/ferdinant122/hello-world:latest
